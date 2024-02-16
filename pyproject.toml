@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "meili"
+version = "0.1.0"
+description = ""
+authors = ["Ted Fulk teddyfulk@gmail.com"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+meilisearch = "^0.30.0"
+fastapi = "^0.109.2"
+uvicorn = "^0.27.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
